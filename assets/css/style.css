@@ -1,58 +1,86 @@
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    margin-top: 56px;
+    background-color: #FFFFFF;
 }
 
-/* Navbar Styles */
-.navbar {
-    background-color: rgba(0, 0, 0, 0.8);
+.navbar-brand {
+    font-size: 1.5rem;
 }
 
-/* Carousel Styles */
 .carousel-item img {
-    height: 80vh;
+    height: 500px;
     object-fit: cover;
 }
 
-/* Quienes Somos Section */
-#quienes-somos .icon img {
-    height: 50px;
+.bg-primary {
+    background-color: #30C5F9 !important;
 }
 
-#quienes-somos p {
-    background-color: #050708;
+.bg-dark {
+    background-color: #050708 !important;
 }
 
-/* Destacados Section */
+.text-primary {
+    color: #30C5F9 !important;
+}
+
+.text-white {
+    color: #FFFFFF !important;
+}
+
 .card {
     border: 1px solid #FFFFFF;
 }
 
-.card-text {
+.card .card-body {
+    background-color: #30C5F9;
     color: #FFFFFF;
 }
 
-/* Contact Form Section */
+footer a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #FFFFFF;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+.hero-section {
+    padding: 50px 0;
+}
+
+.hero-section h1 {
+    color: #30C5F9;
+}
+
+#quienes-somos p {
+    background-color: #050708;
+    color: #FFFFFF;
+}
+
+#quienes-somos i {
+    background-color: #30C5F9;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#quienes-somos .col-md-4 {
+    margin-bottom: 30px;
+}
+
+#contacto label {
+    color: #FFFFFF;
+}
+
 #contacto .form-control {
     background-color: #FFFFFF;
-    color: #000000;
+    color: #050708;
 }
 
 #contacto .btn-primary {
     background-color: #30C5F9;
-    border: none;
-}
-
-/* Footer Styles */
-footer a {
-    color: #FFFFFF;
-}
-
-footer a img {
-    height: 30px;
-}
-
-footer a:hover {
-    text-decoration: none;
+    border-color: #30C5F9;
 }
